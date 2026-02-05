@@ -16,6 +16,7 @@
 
 .hero__body {
     margin-block: var(--space-300);
+    color: var(--slate-600);
 }
 
 .hero__btn {
