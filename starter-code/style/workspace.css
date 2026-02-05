@@ -1,0 +1,13 @@
+.workspace {
+    padding: var(--space-400);
+    padding-block-end: var(--space-800);
+}
+
+.workspace__subtitle {
+    margin-block-end: var(--space-200);
+    color: var(--cyan-600);
+}
+
+.workspace__title {
+    margin-block-end: var(--space-400);
+}
