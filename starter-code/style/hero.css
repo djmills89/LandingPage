@@ -21,9 +21,9 @@
 
 .hero__btn {
     border: none;
-    border-radius: 4rem;
-    padding-block: 2rem;
-    padding-inline: 3rem;
+    border-radius: var(--space-500);
+    padding-block: var(--space-200);
+    padding-inline: var(--space-500);
     color: var(--white);
 }
 
