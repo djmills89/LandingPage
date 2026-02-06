@@ -8,7 +8,6 @@
 
 .btn__download--blue {
     background-color: var(--cyan-600);
-    margin-block-end: var(--space-200);
 }
 
 .btn__download--purple {
@@ -25,4 +24,17 @@
 
 .btn__download--version-purple {
     color: var(--purple-300);
+}
+
+.btn-container {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-200);
+}
+
+@media (min-width: 768px) {
+    .btn-container {
+        display: flex;
+        flex-direction: row;
+    }
 }
