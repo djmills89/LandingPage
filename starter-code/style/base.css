@@ -51,6 +51,10 @@ html {
     font-size: calc(100% * 0.625);
 }
 
+body {
+    background-color: var(--white);
+}
+
 .red-hat-display-black {
     font-family: var(--ff-family);
     font-weight: var(--fw-black);

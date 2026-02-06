@@ -1,10 +1,11 @@
-footer {
+.footer__background {
     color: var(--white);
     background: linear-gradient(var(--cyan-600-overlay), var(--cyan-600-overlay)),
     url('../assets/mobile/image-footer.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    margin-block-start: -2rem;
     padding-block: var(--space-800);
     padding-inline: var(--space-400);
     display: flex;
