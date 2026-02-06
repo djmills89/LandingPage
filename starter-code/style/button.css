@@ -1,0 +1,28 @@
+.btn {
+    border: none;
+    border-radius: var(--space-500);
+    padding-block: var(--space-200);
+    padding-inline: var(--space-500);
+    color: var(--white);
+}
+
+.btn__download--blue {
+    background-color: var(--cyan-600);
+    margin-block-end: var(--space-200);
+}
+
+.btn__download--purple {
+    background-color: var(--purple-600);
+}
+
+.btn__info {
+    background-color: var(--purple-600);
+}
+
+.btn__download--version-blue {
+    color: var(--cyan-300);
+}
+
+.btn__download--version-purple {
+    color: var(--purple-300);
+}

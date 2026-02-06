@@ -19,23 +19,3 @@
     color: var(--slate-600);
 }
 
-.hero__btn {
-    border: none;
-    border-radius: var(--space-500);
-    padding-block: var(--space-200);
-    padding-inline: var(--space-500);
-    color: var(--white);
-}
-
-.hero__btn--download {
-    background-color: var(--cyan-600);
-    margin-block-end: var(--space-200);
-}
-
-.hero__btn--info {
-    background-color: var(--purple-600);
-}
-
-.hero__version {
-    color: var(--cyan-300);
-}
