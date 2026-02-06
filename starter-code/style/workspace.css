@@ -11,3 +11,7 @@
 .workspace__title {
     margin-block-end: var(--space-400);
 }
+
+.workspace__body {
+    color: var(--slate-600);
+}
