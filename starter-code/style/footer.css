@@ -23,5 +23,26 @@
     .footer__background {
         background: linear-gradient(var(--cyan-600-overlay), var(--cyan-600-overlay)),
         url('../assets/tablet/image-footer.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
+
+@media (min-width: 1080px) {
+    .footer__background {
+        background: linear-gradient(var(--cyan-600-overlay), var(--cyan-600-overlay)),
+        url('../assets/desktop/image-footer.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        flex-direction: row;
+        padding-inline: var(--space-1400);
+        padding-block: var(--space-800);
+        text-align: left;
+        gap: var(--space-400);
+        justify-content: space-between;
+    }
+
+    .footer__background p {
+        max-width: 35.5rem;
     }
 }
