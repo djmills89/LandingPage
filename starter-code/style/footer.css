@@ -10,5 +10,13 @@
     padding-inline: var(--space-400);
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     gap: var(--space-300);
+}
+
+@media (min-width: 768px) {
+    .footer__content {
+        max-width: 50.4rem;
+    }
 }
