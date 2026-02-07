@@ -16,3 +16,9 @@
         grid-template-columns: repeat(4, 1fr);
     }
 }
+
+@media (min-width: 1080px) {
+    .gallery {
+        max-width: 112rem;
+    }
+}

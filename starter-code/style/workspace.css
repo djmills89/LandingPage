@@ -28,3 +28,10 @@
         max-width: 50.4rem;
     }
 }
+
+@media (min-width: 1080px) {
+    .workspace {
+        padding-inline: var(--space-1000);
+        padding-block-end: var(--space-900);
+    }
+}
