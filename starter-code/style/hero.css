@@ -8,6 +8,13 @@
     overflow: hidden;
 }
 
+.hero__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 .hero__background {
     margin-block-end: var(--space-600);
     width: 140%;
@@ -28,7 +35,7 @@
         margin-block-end: var(--space-900);
     }
 
-    .hero__heading, .hero__body {
+    .hero__content {
         max-width: 50.4rem;
     }
 }
