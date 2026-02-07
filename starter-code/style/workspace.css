@@ -20,7 +20,7 @@
     color: var(--slate-600);
 }
 
-@media (min-width: 768px) {
+@media (min-width: 48rem) {
     .workspace {
         padding-block-start: var(--space-700);
     }
@@ -29,7 +29,7 @@
     }
 }
 
-@media (min-width: 1080px) {
+@media (min-width: 67rem) {
     .workspace {
         padding-inline: var(--space-1000);
         padding-block-end: var(--space-900);

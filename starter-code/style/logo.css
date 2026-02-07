@@ -7,7 +7,7 @@
     padding-inline: var(--space-1000);
 }
 
-@media (min-width: 1080px) {
+@media (min-width: 67rem) {
     .logo {
         padding-block-start: var(--space-1000);
     }

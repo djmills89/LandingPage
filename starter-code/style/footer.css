@@ -15,7 +15,7 @@
     gap: var(--space-300);
 }
 
-@media (min-width: 768px) {
+@media (min-width: 48rem) {
     .footer__content {
         max-width: 50.4rem;
     }
@@ -28,7 +28,7 @@
     }
 }
 
-@media (min-width: 1080px) {
+@media (min-width: 67rem) {
     .footer__background {
         background: linear-gradient(var(--cyan-600-overlay), var(--cyan-600-overlay)),
         url('../assets/desktop/image-footer.jpg');
