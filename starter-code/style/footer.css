@@ -19,4 +19,9 @@
     .footer__content {
         max-width: 50.4rem;
     }
+
+    .footer__background {
+        background: linear-gradient(var(--cyan-600-overlay), var(--cyan-600-overlay)),
+        url('../assets/tablet/image-footer.jpg');
+    }
 }
