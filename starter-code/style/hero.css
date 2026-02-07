@@ -27,4 +27,8 @@
     .hero__background {
         margin-block-end: var(--space-900);
     }
+
+    .hero__heading, .hero__body {
+        max-width: 50.4rem;
+    }
 }

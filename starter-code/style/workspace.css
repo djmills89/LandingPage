@@ -1,6 +1,10 @@
 .workspace {
     padding: var(--space-400);
     padding-block-end: var(--space-800);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .workspace__subtitle {
@@ -14,4 +18,13 @@
 
 .workspace__body {
     color: var(--slate-600);
+}
+
+@media (min-width: 768px) {
+    .workspace {
+        padding-block-start: var(--space-700);
+    }
+    .workspace__title, .workspace__subtitle, .workspace__body {
+        max-width: 50.4rem;
+    }
 }
