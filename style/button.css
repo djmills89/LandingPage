@@ -1,0 +1,40 @@
+.btn {
+    border: none;
+    border-radius: var(--space-500);
+    padding-block: var(--space-200);
+    padding-inline: var(--space-500);
+    color: var(--white);
+}
+
+.btn__download--blue {
+    background-color: var(--cyan-600);
+}
+
+.btn__download--purple {
+    background-color: var(--purple-600);
+}
+
+.btn__info {
+    background-color: var(--purple-600);
+}
+
+.btn__download--version-blue {
+    color: var(--cyan-300);
+}
+
+.btn__download--version-purple {
+    color: var(--purple-300);
+}
+
+.btn-container {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-200);
+}
+
+@media (min-width: 48rem) {
+    .btn-container {
+        display: flex;
+        flex-direction: row;
+    }
+}

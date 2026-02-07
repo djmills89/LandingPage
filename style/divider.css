@@ -1,0 +1,24 @@
+.divider {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--white);
+}
+
+.vertical-line {
+    border-left: 1px solid var(--slate-600);
+    height: var(--space-1000);
+}
+
+.number {
+    color: var(--slate-600);
+    border: 1px solid var(--slate-600);
+    width: var(--space-500);
+    height: var(--space-500);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--white);
+}

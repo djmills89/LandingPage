@@ -1,0 +1,24 @@
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: var(--space-200);
+    margin-block: var(--space-800);
+}
+
+.gallery img {
+    display: block;
+    width: 100%;
+    border-radius: 1rem;
+}
+
+@media (min-width: 48rem) {
+    .gallery {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+@media (min-width: 67rem) {
+    .gallery {
+        max-width: 112rem;
+    }
+}
