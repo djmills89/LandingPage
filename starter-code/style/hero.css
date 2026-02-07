@@ -26,6 +26,10 @@
     color: var(--slate-600);
 }
 
+.hero__background--left, .hero__background--right {
+    display: none;
+}
+
 @media (min-width: 768px) {
     .hero {
         padding-block-end: var(--space-800);
@@ -37,5 +41,19 @@
 
     .hero__content {
         max-width: 50.4rem;
+    }
+}
+
+@media (min-width: 1080px) {
+    .hero {
+        flex-direction: row;
+        gap: var(--space-600);
+    }
+    .hero__background {
+        display: none;
+    }
+    .hero__background--left, .hero__background--right {
+        display: block;
+        width: 50%;
     }
 }
